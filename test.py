@@ -1,3 +1,2 @@
-import torch
-a = torch.cuda.is_available()
-print(a)
+import os
+print(os.environ["OPENAI_API_KEY"])
